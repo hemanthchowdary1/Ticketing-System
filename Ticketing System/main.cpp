@@ -89,8 +89,8 @@ int main() {
 
         discountedPrice = (numPeople * destination_map[location]) * discount;
 
-        cout << "Individual ticket cost: Inr " << discountedPrice / numPeople << endl;
-        cout << "Total discounted price is equal to Inr " << discountedPrice << endl;
+        cout << "Individual ticket cost: INR " << discountedPrice / numPeople << endl;
+        cout << "Total discounted price is equal to INR " << discountedPrice << endl;
     } else {
         totalPrice = numPeople * destination_map[location];
         cout << "You need to be a group of five (5) or more to avail the discount." << endl << endl;
@@ -99,8 +99,8 @@ int main() {
         cout << "From: Main Terminal" << endl;
         cout << "To: " << location_map[location] << endl;
         cout << "Number of Passengers: " << numPeople << endl;
-        cout << "Cost per Ticket: Inr " << totalPrice / numPeople << endl;
-        cout << "Total Cost (Standard Pricing): Inr " << totalPrice << endl;
+        cout << "Cost per Ticket: INR " << totalPrice / numPeople << endl;
+        cout << "Total Cost (Standard Pricing): INR " << totalPrice << endl;
         cout << "--------------------------------" << endl;
     }
 
